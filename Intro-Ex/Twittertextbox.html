@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <html>
     <head>
+       <title>Twitter text box</title>
        <style>
         .tweeticon {
             background-color: rgb(29, 155, 240);
@@ -13,12 +14,52 @@
             color: white;
             border: none;
             border-radius: 20px;
+            vertical-align: middle;
+            margin-top: 100px;
+            cursor: pointer;
+           
+        }
+
+        .Abelimg {
+            width: 40px;
+            border-radius: 20px;
+            vertical-align: middle;
+            margin-left: 100px;
+            margin-top: 100px;
+            cursor: pointer;
+        }
+
+        .wh {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 3px;
+            padding-right: 70px;
+            color: rgb(99, 99, 99);
+            background-color: white;
+            border: none;
+            vertical-align: middle;
+            margin-top: 100px;
+            border-style: solid;
+            border-color: rgb(134, 134, 134);
+            border-width: 1px;
+            border-radius: 20px;
+            cursor: pointer;
+            
+        }
+
+        .wh:hover {
+            background-color: rgb(228, 228, 228);
         }
        </style>
     </head>
     <body>
+        
+        <img class="Abelimg" src="Abel.jpg">
+        <input class="wh" type="text" placeholder="What's happening?">
         <button class="tweeticon">
-           Tweet
-        </button>
+            Tweet
+         </button>
+ 
+
     </body> 
 </html>
