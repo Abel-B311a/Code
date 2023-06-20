@@ -1,6 +1,5 @@
 .thumbnail-1 {
   width: 300px;
-  height: 300px;
   border-radius: 10px;
   object-fit: cover;
   object-position: center;
@@ -14,4 +13,50 @@
   border-style: solid;
   box-shadow: 1px 1px 1px 1px rgb(211, 211, 211), -1px -1px 1px 1px rgb(211, 211, 211);
   border: none;
+  display: block;
+}
+
+.title {
+
+}
+
+.desc {
+
+}
+
+.stat {
+
+}
+
+.Video-1 {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.thumbnail-2 {
+  width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+  
+}
+
+.title-2 {
+
+}
+
+.desc-2 {
+
+}
+
+.stat-2 {
+
+}
+
+.Video-2 {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
 }
