@@ -44,7 +44,7 @@
 }
 
 .title-2 {
-
+margin-top: 0px;
 }
 
 .desc-2 {
@@ -58,5 +58,26 @@
 .Video-2 {
   width: 300px;
   display: inline-block;
+  vertical-align: top;
+}
+
+.AmanSTY {
+  width: 100%;
+  border-radius: 50%;
+  vertical-align: middle;
+  cursor: pointer;
+  
+}
+
+.Viddisc {
+display: inline-block;
+width: 245px;
+vertical-align: top;
+
+}
+
+.Amandiv {
+  display: inline-block;
+  width: 50px;
   vertical-align: top;
 }
