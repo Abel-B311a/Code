@@ -1,3 +1,7 @@
+p. {
+  font-family: Roboto;
+}
+
 .thumbnail-1 {
   width: 300px;
   border-radius: 10px;
@@ -80,6 +84,14 @@ vertical-align: top;
 
 .Amandiv {
   display: inline-block;
-  width: 50px;
+  width: 40px;
   vertical-align: top;
+}
+
+.row-1 {
+
+}
+
+.row-2 {
+  margin-top: 12px;
 }
