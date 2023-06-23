@@ -1,14 +1,5 @@
 p. {
-  font-family: Roboto;
-}
-
-.thumbnail-1 {
-  width: 300px;
-  border-radius: 10px;
-  object-fit: cover;
-  object-position: center;
-  
-  
+  font-family: 'Roboto', sans-serif, Arial; 
 }
 
 .Search-box {
@@ -22,18 +13,6 @@ p. {
   cursor: pointer;
 }
 
-.title {
-
-}
-
-.desc {
-
-}
-
-.stat {
-
-}
-
 .Video-1 {
   width: 300px;
   display: inline-block;
@@ -41,50 +20,9 @@ p. {
   margin-right: 15px;
 }
 
-.thumbnail-2 {
-  width: 300px;
-  border-radius: 10px;
-  object-fit: cover;
-  object-position: center;
-  
-}
-
-.title-2 {
-margin-top: 0px;
-}
-
-.desc-2 {
-
-}
-
-.stat-2 {
-
-}
-
 .Video-2 {
   width: 300px;
   display: inline-block;
-  vertical-align: top;
-}
-
-.AmanSTY {
-  width: 100%;
-  border-radius: 50%;
-  vertical-align: middle;
-  cursor: pointer;
-  
-}
-
-.Viddisc {
-display: inline-block;
-width: 245px;
-vertical-align: top;
-
-}
-
-.Amandiv {
-  display: inline-block;
-  width: 40px;
   vertical-align: top;
 }
 
@@ -95,3 +33,57 @@ vertical-align: top;
 .row-2 {
   margin-top: 12px;
 }
+
+.profilepic {
+  display: inline-block;
+  width: 40px;
+  vertical-align: top;
+  
+}
+
+.Viddisc {
+  display: inline-block;
+  width: 245px;
+  font-size: 12px;
+  vertical-align: top;
+ 
+  
+  }
+
+  .thumbnail {
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+    
+  }
+
+  .video-name {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-top: 0px;
+  }
+  
+  .channel-name {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+  }
+  
+  .stat {
+    color: rgb(96, 96, 96);
+  }
+
+.photosty {
+  width: 100%;
+  border-radius: 50%;
+  vertical-align: middle;
+  cursor: pointer;
+  
+}
+
+
+
+
+
+
